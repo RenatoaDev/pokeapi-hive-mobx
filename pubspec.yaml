@@ -1,0 +1,42 @@
+name: pokeapi_project
+description: PokeApi Project
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  http: ^0.13.6
+  mobx: ^2.2.0
+  flutter_mobx: ^2.0.6+5
+  mobx_codegen: ^2.3.0
+  get_it: ^7.6.0
+  flutter_svg: ^2.0.7
+  cached_network_image: ^3.2.3
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path_provider: ^2.0.15
+  infinite_scroll_pagination: ^3.2.0
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  build_runner: ^2.4.5
+  hive_generator: ^2.0.0
+  mockito: ^5.4.2
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/logo.svg
+
+
+
+
